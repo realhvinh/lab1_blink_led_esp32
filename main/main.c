@@ -5,11 +5,10 @@
 #include "esp_log.h"
 #include "sdkconfig.h"
 
-
 #define BLINK_GPIO GPIO_NUM_2
 #define delay_time 1000
 
-static const char *TAG = "example";
+static const char *TAG = "lab1_blink_led";
 static uint8_t s_led_state = 0;
 
 void blink_led(void)
